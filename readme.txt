@@ -1,5 +1,5 @@
 === HTTPS oEmbed Providers ===
-Contributors: simonwheatley
+Contributors: simonwheatley, cftp
 Tags: oembed, https
 Requires at least: 3.4.2
 Tested up to: 3.4.2
