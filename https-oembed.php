@@ -34,7 +34,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  * 
  * @const string
  */
-define( 'HOP_PREDICTED_OBSOLESENCE_VERSION', '3.4' );
+define( 'HOP_PREDICTED_OBSOLESENCE_VERSION', '3.5' );
 
 /**
  * Hooks the WP admin_notices and network_admin_notices to warn users
