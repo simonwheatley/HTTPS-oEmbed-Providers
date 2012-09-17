@@ -4,7 +4,7 @@
 Plugin Name: HTTPS oEmbed Providers
 Plugin URI: http://wordpress.org/extend/plugins/https-oembed-providers/
 Description: Fix for WordPress oEmbeds for various services which now provide https URLs, these aren't recognised by the WP 3.4.2 list of oEmbed providers. Significant thanks to John James Jacoby for the code in his patch.
-Version: 1.00
+Version: 1.1
 Author: Simon Wheatley (Code for the People), 
 */
  
