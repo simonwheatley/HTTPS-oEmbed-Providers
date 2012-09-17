@@ -44,6 +44,7 @@ define( 'HOP_PREDICTED_OBSOLESENCE_VERSION', '3.5' );
  * @return void
  */
 function hop_admin_notices() {
+	include ABSPATH . WPINC . '/version.php'; // include an unmodified $wp_version
 	if ( version_compare( $wp_version, HOP_PREDICTED_OBSOLESENCE_VERSION, '<=' ) )
 		return;
 	printf( '<div class="error"><p>Now you’ve upgraded to WordPress %s, please try deactivating the "HTTPS oEmbed Providers" plugin and see if your embedded media still work with <var>https</var> URLs.</p></div>', HOP_PREDICTED_OBSOLESENCE_VERSION );
@@ -60,8 +61,6 @@ add_action( 'admin_notices', 'hop_admin_notices' );
  * @return array An array of regex => oEmbed provider URLs
  */
 function hop_oembed_providers( $providers ) {
-	include ABSPATH . WPINC . '/version.php'; // include an unmodified $wp_version
-	
 	// Don't replace the $providers array, instead merge in on top of it
 	error_log( "Replace providers" );
 	$providers = array_merge( $providers, array(
