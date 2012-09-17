@@ -8,7 +8,7 @@ Version: 1.00
 Author: Simon Wheatley (Code for the People), 
 */
  
-/*  Copyright 2011 Simon Wheatley
+/*  Copyright 2012 Simon Wheatley
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
