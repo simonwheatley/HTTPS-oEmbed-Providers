@@ -11,6 +11,8 @@ Fix for WordPress oEmbeds for various services which now provide https URLs, the
 
 Fix for WordPress oEmbeds for various services which now provide https URLs, these aren't recognised by the WP 3.4.2 list of oEmbed providers. Significant thanks to John James Jacoby for the code in his patch.
 
+Development for this plugin is managed in the [Github repository](https://github.com/simonwheatley/HTTPS-oEmbed-Providers).
+
 See: http://core.trac.wordpress.org/ticket/20102
 
 == Installation ==
