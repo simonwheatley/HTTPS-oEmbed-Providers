@@ -62,7 +62,6 @@ add_action( 'admin_notices', 'hop_admin_notices' );
  */
 function hop_oembed_providers( $providers ) {
 	// Don't replace the $providers array, instead merge in on top of it
-	error_log( "Replace providers" );
 	$providers = array_merge( $providers, array(
 			'#https?://(www\.)?youtube.com/watch.*#i'            => array( 'http://www.youtube.com/oembed',                     true  ),
 			'http://youtu.be/*'                                  => array( 'http://www.youtube.com/oembed',                     false ),
